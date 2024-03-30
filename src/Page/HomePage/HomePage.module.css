@@ -1,0 +1,91 @@
+.main {
+  background-color: rgb(190, 186, 186, 0.2);
+}
+.subMain {
+  display: flex;
+  background-color: white;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.navbarResponsive{
+  display:none;
+}
+
+.star {
+  font-size: 1rem;
+}
+.subMain sup {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+}
+
+.icon {
+  color: rgb(62, 127, 255);
+  height: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.textArea {
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: 0px 0px 3px 3px rgb(182, 182, 182, 0.5);
+  width: 40%;
+  height: 140vh;
+  padding: 6rem;
+  background-color: white;
+  color: #000;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  outline: none;
+}
+.textArea img {
+  width: 400px;
+}
+
+.download {
+  background-color: rgb(62, 127, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 6vh;
+  right: 5vw;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+.input{
+  border: none;
+  font-size: 1.2rem;
+  width: 12vw;
+  outline: none;
+}
+
+@media only screen and (max-width: 1300px) {
+   
+   .navbarResponsive{
+    display: unset;
+   }
+   .navbar{
+    display: none;
+   }
+
+   .textArea{
+    margin-top: -115vh;
+   }
+
+}
